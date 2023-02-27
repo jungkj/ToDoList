@@ -66,7 +66,9 @@ struct DetailView: View {
     
     struct DetailView_Previews: PreviewProvider {
         static var previews: some View {
-            DetailView(passedValue: "Item 1")
+            NavigationStack{
+                DetailView(passedValue: "Item 1")
+            }
         }
     }
 }
