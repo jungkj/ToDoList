@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct DetailView: View {
     @Environment(\.dismiss) private var dismiss
     // Environment Object grabs any data out of the EnvironmentObject and share it across views
